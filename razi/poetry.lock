@@ -1,0 +1,316 @@
+[[package]]
+name = "aio-pika"
+version = "9.2.2"
+description = "Wrapper around the aiormq for asyncio and humans"
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+
+[package.dependencies]
+aiormq = ">=6.7.7,<6.8.0"
+yarl = "*"
+
+[[package]]
+name = "aiogram"
+version = "2.25.1"
+description = "Is a pretty simple and fully asynchronous framework for Telegram Bot API"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+aiohttp = ">=3.8.0,<3.9.0"
+Babel = ">=2.9.1,<2.10.0"
+certifi = ">=2021.10.8"
+magic-filter = ">=1.0.9"
+
+[package.extras]
+fast = ["uvloop (>=0.16.0,<0.17.0)", "ujson (>=1.35)"]
+proxy = ["aiohttp-socks (>=0.5.3,<0.6.0)"]
+
+[[package]]
+name = "aiohttp"
+version = "3.8.5"
+description = "Async http client/server framework (asyncio)"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+aiosignal = ">=1.1.2"
+async-timeout = ">=4.0.0a3,<5.0"
+attrs = ">=17.3.0"
+charset-normalizer = ">=2.0,<4.0"
+frozenlist = ">=1.1.1"
+multidict = ">=4.5,<7.0"
+yarl = ">=1.0,<2.0"
+
+[package.extras]
+speedups = ["aiodns", "brotli", "cchardet"]
+
+[[package]]
+name = "aiormq"
+version = "6.7.7"
+description = "Pure python AMQP asynchronous client library"
+category = "main"
+optional = false
+python-versions = ">=3.7,<4.0"
+
+[package.dependencies]
+pamqp = "3.2.1"
+yarl = "*"
+
+[[package]]
+name = "aiosignal"
+version = "1.3.1"
+description = "aiosignal: a list of registered asynchronous callbacks"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+frozenlist = ">=1.1.0"
+
+[[package]]
+name = "async-timeout"
+version = "4.0.3"
+description = "Timeout context manager for asyncio programs"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "atomicwrites"
+version = "1.4.1"
+description = "Atomic file writes."
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[[package]]
+name = "attrs"
+version = "23.1.0"
+description = "Classes Without Boilerplate"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+cov = ["attrs", "coverage[toml] (>=5.3)"]
+dev = ["attrs", "pre-commit"]
+docs = ["furo", "myst-parser", "sphinx", "sphinx-notfound-page", "sphinxcontrib-towncrier", "towncrier", "zope-interface"]
+tests = ["attrs", "zope-interface"]
+tests-no-zope = ["cloudpickle", "hypothesis", "mypy (>=1.1.1)", "pympler", "pytest-mypy-plugins", "pytest-xdist", "pytest (>=4.3.0)"]
+
+[[package]]
+name = "babel"
+version = "2.9.1"
+description = "Internationalization utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.dependencies]
+pytz = ">=2015.7"
+
+[[package]]
+name = "certifi"
+version = "2023.7.22"
+description = "Python package for providing Mozilla's CA Bundle."
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[[package]]
+name = "charset-normalizer"
+version = "3.2.0"
+description = "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet."
+category = "main"
+optional = false
+python-versions = ">=3.7.0"
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+description = "Cross-platform colored terminal text."
+category = "dev"
+optional = false
+python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,!=3.6.*,>=2.7"
+
+[[package]]
+name = "frozenlist"
+version = "1.4.0"
+description = "A list-like structure which implements collections.abc.MutableSequence"
+category = "main"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "idna"
+version = "3.4"
+description = "Internationalized Domain Names in Applications (IDNA)"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[[package]]
+name = "magic-filter"
+version = "1.0.11"
+description = ""
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+dev = ["black (>=22.8.0,<22.9.0)", "flake8 (>=5.0.4,<5.1.0)", "isort (>=5.10.1,<5.11.0)", "mypy (>=0.971,<1.0)", "pre-commit (>=2.20.0,<2.21.0)", "pytest-cov (>=3.0.0,<3.1.0)", "pytest-html (>=3.1.1,<3.2.0)", "pytest (>=7.1.3,<7.2.0)", "types-setuptools (>=65.3.0,<65.4.0)"]
+
+[[package]]
+name = "more-itertools"
+version = "10.1.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "dev"
+optional = false
+python-versions = ">=3.8"
+
+[[package]]
+name = "multidict"
+version = "6.0.4"
+description = "multidict implementation"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "packaging"
+version = "23.1"
+description = "Core utilities for Python packages"
+category = "dev"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
+name = "pamqp"
+version = "3.2.1"
+description = "RabbitMQ Focused AMQP low-level library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+codegen = ["lxml", "requests", "yapf"]
+testing = ["coverage", "flake8", "flake8-comprehensions", "flake8-deprecated", "flake8-import-order", "flake8-print", "flake8-quotes", "flake8-rst-docstrings", "flake8-tuple", "yapf"]
+
+[[package]]
+name = "pika"
+version = "1.3.2"
+description = "Pika Python AMQP Client Library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.extras]
+gevent = ["gevent"]
+tornado = ["tornado"]
+twisted = ["twisted"]
+
+[[package]]
+name = "pluggy"
+version = "0.13.1"
+description = "plugin and hook calling mechanisms for python"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+
+[package.extras]
+dev = ["pre-commit", "tox"]
+
+[[package]]
+name = "py"
+version = "1.11.0"
+description = "library with cross-python path, ini-parsing, io, code, log facilities"
+category = "dev"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+
+[[package]]
+name = "pytest"
+version = "5.4.3"
+description = "pytest: simple powerful testing with Python"
+category = "dev"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+atomicwrites = {version = ">=1.0", markers = "sys_platform == \"win32\""}
+attrs = ">=17.4.0"
+colorama = {version = "*", markers = "sys_platform == \"win32\""}
+more-itertools = ">=4.0.0"
+packaging = "*"
+pluggy = ">=0.12,<1.0"
+py = ">=1.5.0"
+wcwidth = "*"
+
+[package.extras]
+checkqa-mypy = ["mypy (==v0.761)"]
+testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xmlschema"]
+
+[[package]]
+name = "pytz"
+version = "2023.3.post1"
+description = "World timezone definitions, modern and historical"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "wcwidth"
+version = "0.2.6"
+description = "Measures the displayed width of unicode strings in a terminal"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "yarl"
+version = "1.9.2"
+description = "Yet another URL library"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+idna = ">=2.0"
+multidict = ">=4.0"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "0f029e4ed1c8a4adc438de9cfc38a2de77f3dac0c5f2faedc4604d1281d06c63"
+
+[metadata.files]
+aio-pika = []
+aiogram = []
+aiohttp = []
+aiormq = []
+aiosignal = []
+async-timeout = []
+atomicwrites = []
+attrs = []
+babel = []
+certifi = []
+charset-normalizer = []
+colorama = []
+frozenlist = []
+idna = []
+magic-filter = []
+more-itertools = []
+multidict = []
+packaging = []
+pamqp = []
+pika = []
+pluggy = []
+py = []
+pytest = []
+pytz = []
+wcwidth = []
+yarl = []
